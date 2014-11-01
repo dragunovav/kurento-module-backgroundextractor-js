@@ -1,0 +1,63 @@
+{
+  "name": "backgroundextractor",
+  "version": "0.0.1-dev",
+  "kurentoVersion": "^5.0.0",
+  "imports": [
+    {
+      "name": "core",
+      "version": "^5.0.0",
+      "mavenVersion": "[5.0.0,6.0.0)",
+      "npmVersion": ">=5.0.0 <6.0.0"
+    },
+    {
+      "name": "elements",
+      "version": "^5.0.0",
+      "mavenVersion": "[5.0.0,6.0.0)",
+      "npmVersion": ">=5.0.0 <6.0.0"
+    },
+    {
+      "name": "filters",
+      "version": "^5.0.0",
+      "mavenVersion": "[5.0.0,6.0.0)",
+      "npmVersion": ">=5.0.0 <6.0.0"
+    }
+  ],
+  "code": {
+    "api": {
+      "js": {
+        "nodeName": "kurento-module-backgroundextractor",
+        "npmDescription": "",
+        "npmVersion": "0.0.1"
+      },
+      "java": {
+        "mavenGroupId": "org.kurento.module",
+        "packageName": "org.kurento.module.backgroundextractor",
+        "mavenArtifactId": "backgroundextractor",
+        "mavenVersion": "0.0.1-SNAPSHOT"
+      }
+    },
+    "implementation": {
+      "lib": "libkmsbackgroundextractor",
+      "cppNamespace": "kurento::module::backgroundextractor"
+    }
+  },
+  "remoteClasses": [
+    {
+      "name": "BackgroundExtractorFilter",
+      "doc": "Filter that converts the user background to alpha",
+      "extends": "Filter",
+      "constructor": {
+        "params": [
+          {
+            "name": "mediaPipeline",
+            "doc": "the :rom:cls:`MediaPipeline` to which the filter belongs",
+            "type": "MediaPipeline"
+          }
+        ],
+        "doc": "Create a :rom:cls:`BackgroundExtractor`"
+      }
+    }
+  ],
+  "complexTypes": [],
+  "events": []
+}
