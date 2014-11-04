@@ -1,6 +1,6 @@
 {
   "name": "kurento-module-backgroundextractor",
-  "version": "0.0.1-dev",
+  "version": "1.0.0-dev",
   "description": "",
   "main": "lib/index.js",
   "keywords": [
