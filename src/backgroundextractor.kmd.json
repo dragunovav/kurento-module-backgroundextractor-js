@@ -55,7 +55,20 @@
           }
         ],
         "doc": "Create a :rom:cls:`BackgroundExtractor`"
-      }
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "name": "process",
+              "doc": "TRUE activates the processing and FALSE deactivates the processing",
+              "type": "boolean"
+            }
+          ],
+          "name": "activateProcessing",
+          "doc": "Allow to activate/deactivate the proccessing"
+        }
+      ]
     }
   ],
   "complexTypes": [],
