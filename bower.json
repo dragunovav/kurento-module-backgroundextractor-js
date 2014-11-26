@@ -1,0 +1,13 @@
+{
+  "name": "kurento-module-backgroundextractor",
+  "description": "",
+  "main": "dist/kurento-module-backgroundextractor.js",
+  "ignore": [
+    "doc/",
+    "lib/",
+    "package.json"
+  ],
+  "keywords": [
+    "Kurento"
+  ]
+}
