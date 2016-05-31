@@ -1,6 +1,6 @@
 {
   "name": "backgroundextractor",
-  "version": "6.4.1-dev",
+  "version": "6.5.0",
   "kurentoVersion": "^6.1.0",
   "imports": [
     {
@@ -27,13 +27,13 @@
       "js": {
         "nodeName": "kurento-module-backgroundextractor",
         "npmDescription": "",
-        "npmVersion": "6.4.1"
+        "npmVersion": "6.5.0"
       },
       "java": {
         "mavenGroupId": "org.kurento.module",
         "packageName": "org.kurento.module.backgroundextractor",
         "mavenArtifactId": "backgroundextractor",
-        "mavenVersion": "6.4.1-SNAPSHOT"
+        "mavenVersion": "6.5.0"
       }
     },
     "implementation": {
